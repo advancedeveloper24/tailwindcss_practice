@@ -4,7 +4,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto pt-44 pb-6 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+    <section
+      id="home"
+      className="container mx-auto pt-44 pb-6 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center"
+    >
       {/* Left Column */}
       <div className="w-full md:w-1/2 space-y-8">
         {/* Badge */}
