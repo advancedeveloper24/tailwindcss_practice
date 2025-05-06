@@ -4,6 +4,10 @@ import Hero from "./components/Hero";
 import CompanyLogo from "./components/CompanyLogo";
 import PurposeSection from "./components/PurposeSection";
 import Features from "./components/Features";
+import Schedule from "./components/Schedule";
+import Monitor from "./components/Monitor";
+import Pricing from "./components/Pricing";
+import Support from "./components/Support";
 
 export default function Home() {
   return (
@@ -15,6 +19,10 @@ export default function Home() {
       <CompanyLogo />
       <PurposeSection />
       <Features />
+      <Schedule />
+      <Monitor />
+      <Pricing />
+      <Support />
     </main>
   );
 }
